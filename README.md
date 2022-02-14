@@ -4,6 +4,17 @@ Repositório de documentação do projeto PUMA.
 
 ## Repositórios de Implementação
 
+[Front-end](https://github.com/fga-eps-mds/2021-1-PUMA-Frontend)
+
+[Api Gateway](https://github.com/fga-eps-mds/2021-1-PUMA-ApiGateway)
+
+[User Service](https://github.com/fga-eps-mds/2021-1-PUMA-UserService)
+
+[Project Service](https://github.com/fga-eps-mds/2021-1-PUMA-ProjectService)
+
+[Notify Service](https://github.com/fga-eps-mds/2021-1-PUMA-NotifyService)
+
+[Alocate Service](https://github.com/fga-eps-mds/2021-1-PUMA-AlocateService)
 
 ## Time 
 
