@@ -4,6 +4,8 @@ Repositório de documentação do projeto PUMA.
 
 ## Repositórios de Implementação
 
+[Deploy](https://github.com/fga-eps-mds/2021-1-PUMA-Deploy)
+
 [Front-end](https://github.com/fga-eps-mds/2021-1-PUMA-Frontend)
 
 [Api Gateway](https://github.com/fga-eps-mds/2021-1-PUMA-ApiGateway)
@@ -16,7 +18,26 @@ Repositório de documentação do projeto PUMA.
 
 [Alocate Service](https://github.com/fga-eps-mds/2021-1-PUMA-AlocateService)
 
-[Deploy](https://github.com/fga-eps-mds/2021-1-PUMA-Deploy)
+## Desenvolvimento Local
+
+### Dependências
+
+Virtualenv: 
+> $ pip3 install virtualenv
+
+### Preparando Ambiente e Subindo Servidor
+
+No diretório raiz do repositório, crie o ambiente: 
+> $ virtualenv -p python3 env
+
+Ative o ambiente: 
+> $ source env/bin/active
+
+Instale o Material mkdocs: 
+> $ pip3 install mkdocs-material
+
+Inicie o servidor de desenvolvimento:
+> $ mkdocs serve
 
 ## Time 
 
