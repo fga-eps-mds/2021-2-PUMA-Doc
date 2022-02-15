@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+
+{% block tabs %}
+{{ super() }}
+<style>
+    .md-header {
+        position: initial
+    }
+
+    .md-main__inner {
+        margin: 0
+    }
+
+    .md-content {
+        display: none
+    }
+
+    @media screen and (min-width:60em) {
+        .md-sidebar--secondary {
+            display: none
+        }
+    }
+
+    @media screen and (min-width:76.25em) {
+        .md-sidebar--primary {
+            display: none
+        }
+    }
+</style>
+<section id="section-home-logo">
+    <img src="assets/images/puma_logo_white.svg" draggable="false" />
+</section>
+<section id="section-home-about">
+    <h1>Sobre</h1>
+    <p>
+        A Plataforma Unificada de Metodologia Ativa, abreviada como PUMA, é uma plataforma que tem como objetivo avaliar
+        a eficiência da metodologia de Aprendizado Baseado em Projetos (PBL), a qual é adotada pelo curso de Engenharia
+        de Produção da Universidade de Brasília, bem como automatizar todo o processo de avaliação dos alunos,
+        contemplando todas as disciplinas de Projetos de Sistemas de Produção (PSPs).
+    </p>
+</section>
+<section id="section-home-team">
+    <h1>Equipe</h1>
+    <div class="container-members">
+        <div class="container-members-row">
+            <div class="member-card">
+                <a href="https://github.com/Mexazonic" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/48650663?v=4" class="member-card-img"
+                        draggable="false" />
+                    <div class="member-card-bar">
+                        <h2>Bruno Henrique Duarte</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="member-card">
+                <a href="https://github.com/Eugeniosales" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/42457772?v=4" class="member-card-img"
+                        draggable="false" />
+                    <div class="member-card-bar">
+                        <h2>Eugênio Sales Siqueira</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="member-card">
+                <a href="https://github.com/GabrielRoger07" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/79281186?v=4" class="member-card-img"
+                        draggable="false" />
+                    <div class="member-card-bar">
+                        <h2>Gabriel Roger Amorim da Cruz</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="member-card">
+                <a href="https://github.com/Guilherme-Nishi" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/78215376?v=4" class="member-card-img"
+                        draggable="false" />
+                    <div class="member-card-bar">
+                        <h2>Guilherme Nishimura</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="container-members-row">
+            <div class="member-card">
+                <a href="https://github.com/Gustavo-Nogueira" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/36088551?v=4" class="member-card-img"
+                        draggable="false" />
+                    <div class="member-card-bar">
+                        <h2>Gustavo Nogueira Rodrigues</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="member-card">
+                <a href="https://github.com/JoaoPedro0803" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/78980903?v=4" class="member-card-img"
+                        draggable="false" />
+                    <div class="member-card-bar">
+                        <h2>João Pedro de Camargo Vaz</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="member-card">
+                <a href="https://github.com/LuisCL94" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/37872798?v=4" class="member-card-img"
+                        draggable="false" />
+                    <div class="member-card-bar">
+                        <h2>Luís Cláudio Telles Lima</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="member-card">
+                <a href="https://github.com/ngm1450" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/32614551?v=4" class="member-card-img"
+                        draggable="false" />
+                    <div class="member-card-bar">
+                        <h2>Nicolas Georgeos Mantzos</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="container-members-row">
+            <div class="member-card">
+                <a href="https://github.com/pehenobra2" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/57445188?v=4" class="member-card-img"
+                        draggable="false" />
+                    <div class="member-card-bar">
+                        <h2>Pedro Henrique Bragança</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="member-card">
+                <a href="https://github.com/roddas" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/9947506?v=4" class="member-card-img"
+                        draggable="false" />
+                    <div class="member-card-bar">
+                        <h2>Rodolfo Cabral Neves</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="member-card">
+                <a href="https://github.com/viniman27" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/78980842?v=4" class="member-card-img"
+                        draggable="false" />
+                    <div class="member-card-bar">
+                        <h2>Vinicius Assumpção de Araujo</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-home-footer">
+    <!--   <img src="assets/images/unb-gama.png" draggable="false" /> -->
+</section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}

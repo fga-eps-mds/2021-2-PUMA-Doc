@@ -1,0 +1,36 @@
+site_name: PUMA
+
+repo_name: "2021-2-PUMA-Doc"
+repo_url: "https://github.com/fga-eps-mds/2021-2-PUMA-Doc"
+
+# page structure
+nav:
+  - Home: index.md
+  - Planejamento:
+    - Heatmap de Disponibilidade: planejamento/heatmap-disponibilidade.md
+    - Heatmap de Conhecimentos: planejamento/heatmap-conhecimentos.md
+    - Comunicação: planejamento/comunicacao.md
+    - Lean Inception: planejamento/lean-inception.md
+  - Sprints: sprints/placeholder.md
+
+# configuration
+theme:
+  name: material
+  custom_dir: material
+  language: pt
+  features:
+    - navigation.tabs
+    - navigation.sections
+    # - navigation.expand
+  font:
+    text: Poppins
+    code: Roboto Mono
+  logo: assets/images/puma_favicon.svg
+  favicon: assets/images/puma_favicon.svg
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra_css:
+  - assets/stylesheets/styles.css

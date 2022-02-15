@@ -16,6 +16,8 @@ Repositório de documentação do projeto PUMA.
 
 [Alocate Service](https://github.com/fga-eps-mds/2021-1-PUMA-AlocateService)
 
+[Deploy](https://github.com/fga-eps-mds/2021-1-PUMA-Deploy)
+
 ## Time 
 
 | Matrícula  | Nome                             | Github                                                  |
