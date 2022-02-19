@@ -57,7 +57,7 @@ Inicie o servidor de desenvolvimento:
 > $ mkdocs serve
 
 ### Rodar o Projeto Localmente
-0) Abra o Terminal, crie uma pasta em sua área de trabalho. copie o arquivo clone_pumas.sh nesta pasta vazia.
+Antes de iniciarmos o tutorial: Abra o Terminal, crie uma pasta em sua área de trabalho. copie o arquivo [clone_pumas.sh](https://github.com/fga-eps-mds/2021-2-PUMA-Doc/blob/main/clone_pumas.sh) nesta pasta vazia.
 1) Execute o arquivo .sh
 ```console
 bash clone_pumas.sh
