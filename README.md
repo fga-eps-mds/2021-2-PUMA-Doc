@@ -62,7 +62,13 @@ Antes de iniciarmos o tutorial: Abra o Terminal, crie uma pasta em sua área de 
 ```console
 bash clone_pumas.sh
 ```
-2) Adicionar as Variáveis de Ambiente como arquivos .env na raiz de cada repositório
+1.1) **Observação:** Em cada Repositório baixado mude para a branch puma2022!
+```console
+git checkout puma2022
+```
+
+2) Adicionar as Variáveis de Ambiente como arquivos(renomear para .env) .env na raiz de cada repositório
+> As variáveis serão disponibilizadas
 
 3) Entrar no repositório Api-Gateway e executar
 ```console
