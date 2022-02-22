@@ -67,8 +67,9 @@ bash clone_pumas.sh
 git checkout puma2022
 ```
 
-2) Adicionar as Variáveis de Ambiente como arquivos(renomear para .env) .env na raiz de cada repositório
-> As variáveis serão disponibilizadas
+2) Adicionar as Variáveis de Ambiente como arquivos(renomear os arquivos para .env somente) .env na raiz de cada repositório
+> As variáveis serão disponibilizadas.
+> No repositório do Frontend, colocar o arquivo .env na pasta puma!
 
 3) Entrar no repositório Api-Gateway e executar
 ```console
@@ -87,9 +88,9 @@ Exemplo: psql -U neymar -d puma
 ```
 6) Inserir alguns dados manualmente para execução do projeto
 ```SQL
-> INSERT INTO knowledge_area(knowledgearea) VALUES('Area de Conhecimento');
-> INSERT INTO subject(name, coursesyllabus) VALUES('Nome Subject', 'Descricao do Subject');
-> INSERT INTO subarea(knowledgeareaid, description) VALUES(1, 'Descricao da Area de conhecimento');
+INSERT INTO knowledge_area(knowledgearea) VALUES('Area de Conhecimento');
+INSERT INTO subject(name, coursesyllabus) VALUES('Nome Subject', 'Descricao do Subject');
+INSERT INTO subarea(knowledgeareaid, description) VALUES(1, 'Descricao da Area de conhecimento');
 ```
 7) Acessar o Projeto pelo link gerado
 8) Cadastrar o Usuário, Logar e por fim Explorar :)
