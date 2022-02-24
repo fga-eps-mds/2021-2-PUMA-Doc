@@ -1,15 +1,15 @@
 #!/bin/sh
 git clone https://github.com/fga-eps-mds/2021-2-PUMA-Doc
-echo "PUMA DOCS"
+echo "\e[34mPUMA  \e[34mDOCS"
 git clone https://github.com/fga-eps-mds/2021-2-PUMA-Frontend
-echo "Download Front"
+echo "\e[34mDownload \e[34mFront"
 git clone https://github.com/fga-eps-mds/2021-2-PUMA-ApiGateway
-echo "Download API-Gateway"
+echo "\e[34mDownload \e[34mAPI-Gateway"
 git clone https://github.com/fga-eps-mds/2021-2-PUMA-UserService
-echo "Download User Service"
+echo "\e[34mDownload \e[34mUser \e[34mService"
 git clone https://github.com/fga-eps-mds/2021-2-PUMA-ProjectService
-echo "Download Project Service"
+echo "\e[34mDownload \e[34mProject \e[34mService"
 git clone https://github.com/fga-eps-mds/2021-2-PUMA-NotifyService
-echo "Download NotifyService"
+echo "\e[34mDownload \e[34mNotifyService"
 git clone https://github.com/fga-eps-mds/2021-2-PUMA-AlocateService
-echo "Download AlocateService"
+echo "\e[34mDownload \e[34mAlocateService"
