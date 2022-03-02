@@ -11,7 +11,7 @@
 * A Branch deve ter uma *TAG* que faça referência ao problema que esta branch resolverá.
 
 * Exemplo:
-Uma branch para a issue "#13 Validacao de Cdastro de Usuário" deve ser como:
+Uma branch para a issue "#13 Validacao de Cadastro de Usuário" deve ser como:
 
 ```git
 git checkout -b 13-validacao_cadastro_usuario
