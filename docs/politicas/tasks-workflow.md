@@ -1,14 +1,15 @@
 ## Controle de Versão
 
-|Date|Version|Update|Author|
-|:--:|:----:|:-------:|:---:|
-|02/03/2022|1.0|Criação da políca do Git Workflow|Eugênio Siqueira|
+|    Date    | Version |              Update               |      Author      |
+| :--------: | :-----: | :-------------------------------: | :--------------: |
+| 02/03/2022 |   1.0   | Criação da políca do Git Workflow | Eugênio Siqueira |
 
 ## _Release_ I  
 
 <p align="justify">
-A definição de <i>done</i> de <i>issues</i> abertas na primeira <i>release</i>é:
+A definição de <i>done</i> de <i>issues</i> abertas na primeira <i>release</i> é:
 </p>
+
 <ul>
     <li>Critérios de aceitação completos;</li>
     <li><i>Tasks</i>, se houverem, concluídas;</li>
@@ -30,5 +31,5 @@ As <i>pipelines</i> utilizadas serão:
 <p align="justify">
 Assim que uma história técnica ou de usuário respeitar a definição de pronto acordada, e, caso possua testes unitários, e a <i>build</i> esteja passando, o responsável por ela abrirá um <i>Pull Request</i>, e assim que for revisado por um membro de EPS, que, caso aceite a história, ela poderá ser movida para <i><b>done</b></i>.    
 
-A cobertura de testes deverá estar em 60%.
+A cobertura de testes deverá estar em 90%.
 </p>
