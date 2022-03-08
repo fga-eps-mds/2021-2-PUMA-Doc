@@ -9,6 +9,6 @@ A Lean Inception do projeto foi dividida em quatro reuniões com duração de um
 
 ## Histórico de Versão
 
-| Data       | Versão | Autores     | Descrição            |
-| ---------- | ------ | ----------- | -------------------- |
-| 15/02/2022 | 1.0    | Time de EPS | Criação do documento |
+| Data       | Versão | Descrição            | Autores     |
+| ---------- | ------ | -------------------- | ----------- |
+| 15/02/2022 | 1.0    | Criação do documento | Time de EPS |

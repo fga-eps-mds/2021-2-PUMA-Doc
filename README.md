@@ -35,62 +35,78 @@ Repositório de documentação do projeto PUMA.
 | 20/0028472 | Vinicius Assumpção de Araujo     | [viniman27](https://github.com/viniman27)               |
 
 
-## Desenvolvimento Local
+## GitHub Pages - Desenvolvimento Local 
 
 ### Dependências
 
 Virtualenv: 
-> $ pip3 install virtualenv
+```console
+pip3 install virtualenv
+```
 
 ### Preparando Ambiente e Subindo Servidor
 
 No diretório raiz do repositório, crie o ambiente: 
-> $ virtualenv -p python3 env
+```console
+virtualenv -p python3 env
+```
 
 Ative o ambiente: 
-> $ source env/bin/active
+
+```console
+source env/bin/activate
+```
 
 Instale o Material mkdocs: 
-> $ pip3 install mkdocs-material
+```console
+pip3 install mkdocs-material
+```
 
 Inicie o servidor de desenvolvimento:
-> $ mkdocs serve
+```console
+mkdocs serve
+```
 
-### Rodar o Projeto Localmente
-Antes de iniciarmos o tutorial: Abra o Terminal, crie uma pasta em sua área de trabalho. copie o arquivo [clone_pumas.sh](https://github.com/fga-eps-mds/2021-2-PUMA-Doc/blob/main/clone_pumas.sh) nesta pasta vazia.
+## PUMA - Desenvolvimento Local
+
+Antes de iniciarmos o tutorial: Abra o terminal, crie uma pasta em sua área de trabalho. Copie o arquivo [clone_pumas.sh](https://github.com/fga-eps-mds/2021-2-PUMA-Doc/blob/main/clone_pumas.sh) nesta pasta vazia.
+
 1) Execute o arquivo .sh
 ```console
 bash clone_pumas.sh
 ```
-1.1) **Observação:** Em cada Repositório baixado mude para a branch puma2022!
-```console
-git checkout puma2022
-```
 
-2) Adicionar as Variáveis de Ambiente como arquivos(renomear os arquivos para .env somente) .env na raiz de cada repositório
+2) Adicionar as variáveis de ambiente como arquivos .env(renomear os arquivos para .env somente) na raiz de cada repositório.
+
 > As variáveis serão disponibilizadas.
+
 > No repositório do Frontend, colocar o arquivo .env na pasta puma!
 
-3) Entrar no repositório Api-Gateway e executar
+1) Entrar no repositório Api-Gateway e executar
 ```console
 make up-build
 ```
-4) Abrir outro terminal; entrar no docker do banco de dados através do comando
+
+4) Abrir outro terminal; entrar no docker do banco de dados através do comando:
 ```console
 sudo docker ps // Lista os containers rodando e suas informações(ids, nomes, portas, etc)
 sudo docker exec -it ID_CONTAINER_postgres bash
 ```
-5) Após entrar no container, executar os seguintes comandos
+
+5) Após entrar no container, executar os seguintes comandos:
 ```console
 su - postgres
 psql -U username -d puma
 Exemplo: psql -U neymar -d puma
 ```
-6) Inserir alguns dados manualmente para execução do projeto
+
+6) Inserir alguns dados manualmente para execução do projeto:
 ```SQL
 INSERT INTO knowledge_area(knowledgearea) VALUES('Area de Conhecimento');
 INSERT INTO subject(name, coursesyllabus) VALUES('Nome Subject', 'Descricao do Subject');
 INSERT INTO subarea(knowledgeareaid, description) VALUES(1, 'Descricao da Area de conhecimento');
 ```
-7) Acessar o Projeto pelo link gerado
-8) Cadastrar o Usuário, Logar e por fim Explorar :)
+
+7) Acessar o projeto pelo link gerado
+
+8) Cadastrar o usuário, logar e por fim explorar :)

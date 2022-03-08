@@ -7,11 +7,25 @@ repo_url: "https://github.com/fga-eps-mds/2021-2-PUMA-Doc"
 nav:
   - Home: index.md
   - Planejamento:
-    - Heatmap de Disponibilidade: planejamento/heatmap-disponibilidade.md
-    - Heatmap de Conhecimentos: planejamento/heatmap-conhecimentos.md
-    - Comunicação: planejamento/comunicacao.md
-    - Lean Inception: planejamento/lean-inception.md
-  - Sprints: sprints/placeholder.md
+      - Plano de Comunicação: planejamento/plano-comunicacao.md
+      - Estrutura Analítica do Projeto: planejamento/eap.md
+      - Quadro de Disponibilidade: planejamento/quadro-disponibilidade.md
+      - Quadro de Conhecimentos: planejamento/quadro-conhecimentos.md
+      - Agenda da Lean Inception: planejamento/lean-inception.md
+      - Políticas de Contribuição: planejamento/contribuicao.md
+      - Plano de Gerenciamento de Custos: planejamento/plano-custos.md
+      - Plano de Gerenciamento de Riscos: planejamento/plano-riscos.md
+  - Visão de Produto:
+      - Canvas Lean Inception: produto/canvas-li.md
+      - Backlog do Produto: produto/backlog.md
+      - Documento de Arquitetura: produto/arquitetura.md
+      - Protótipo de Alta Fidelidade: produto/prototipo-alta.md
+      # - Guia de Estilo e Identidade Visual
+  # - Resultados
+  - Sprints:
+      - Sprint 1:
+          Planejamento: sprints/planning-1.md
+          Resultados: sprints/review-1.md
 
 # configuration
 theme:
@@ -20,8 +34,8 @@ theme:
   language: pt
   features:
     - navigation.tabs
-    - navigation.sections
-    # - navigation.expand
+    # - navigation.sections
+    - navigation.expand
   font:
     text: Poppins
     code: Roboto Mono
