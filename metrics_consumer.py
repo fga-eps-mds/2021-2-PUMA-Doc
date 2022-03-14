@@ -2,7 +2,7 @@ import requests
 import sys
 import json
 from datetime import datetime
-
+import os
 
 now = datetime.now()
 
@@ -27,6 +27,12 @@ def consumer(repository, version):
 
 
 if __name__ == '__main__':
+    # Verification Path
+    folder = 'analytics-raw-data'
+    create_folder = os.path.exists(folder)
+    if not create_folder:
+        os.makedirs(folder)
+
     repository = sys.argv[1]
     version = sys.argv[2]
     consumer(repository, version)
