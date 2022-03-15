@@ -32,12 +32,7 @@ git checkout -b feature_branch
 
 Quando você terminar o trabalho de desenvolvimento do recurso, o próximo passo é mesclar o `feature_branch` em `develop`. Você deve então abrir um **Pull Request** de `feature_branch` para `develop`, que será revisado por um dos membros da equipe EPS.
 
-### Mantendo Issues
-
-A definição de _done_ de _issues_ abertas:
-
-- Critérios de aceitação completos;
-- _Tasks_, se houverem, concluídas.
+## Kanban
 
 O _ZenHub_ foi a ferramenta escolhida para auxiliar a equipe na condução do _scrum_, que utilizará sua funcionalidade de _pipelines_ para fins rastreabilidade e transparência do trabalho a ser realizado na _sprint_.
 
@@ -52,7 +47,63 @@ As _pipelines_ utilizadas serão:
 
 Assim que uma história técnica ou de usuário respeitar a definição de pronto acordada, e, caso possua testes unitários, e a _build_ esteja passando, o responsável por ela abrirá um _Pull Request_, e assim que for revisado por um membro de EPS, que, caso aceite a história, ela poderá ser movida para _done_. Além disso, a cobertura de testes deverá estar em 90%.
 
-## Política de Adição de Branches
+## Política de Issues
+
+* Issues em português.
+
+### Histórias de Usuário
+
+- Utilizar a(s) _label(s)_ US.
+
+Deve seguir o _template_ abaixo:
+
+- Descrição
+    - Deve seguir o formato:
+    - Como [persona], eu [quero], [para que].
+
+- Critérios de Aceitação
+    - Lista de critérios que precisam ser alcançados para que a _User Story_ atenda os requisitos do usuário e seja aceita pelos POs.
+
+- Tarefas Técnicas
+    - Lista de tarefas que indicam passos(a partir do ponto de vista técnico) para que a implementação da _User Story_ seja concluída com êxito.
+
+### Melhorias 
+
+- Utilizar a(s) _label(s)_ ENHANCEMENT.
+
+Deve seguir o _template_ abaixo:
+
+- Descrição
+    - Descrição da melhoria indicando quais aspectos serão aprimorados/atualizados.
+
+- Critérios de Aceitação
+    - Lista de critérios que precisam ser alcançados para que a melhoria seja feita da maneira correta.
+
+- Tarefas Técnicas (Opcional)
+    - Lista de tarefas que indicam passos(a partir do ponto de vista técnico) para que a melhoria seja concluída com êxito.
+
+### BUGs
+
+- Utilizar a(s) _label(s)_ BUG.
+
+Deve seguir o _template_ abaixo:
+
+- Descrição
+    - Descrição do BUG.
+    - Passos para reproduzir o BUG.
+    
+- Critérios de Aceitação
+    - Lista de critérios que precisam ser alcançados para que o BUG seja considerado resolvido.
+
+- Tarefas Técnicas (Opcional)
+    - Lista de tarefas que indicam passos(a partir do ponto de vista técnico) para que a solução do BUG seja concluída com êxito.
+
+### Definição de Done (DoD)
+
+- Critérios de Aceitação cumpridos;
+- Tarefas Técnicas, se houverem, concluídas.
+
+## Política de Branches
 
 * Branches em português.
 
@@ -85,9 +136,10 @@ git commit -m Adicionar funcionalidade de correção de senha
 
 ## Histórico de Versão
 
-| Data       | Versão | Descrição            | Autores          |
-| ---------- | ------ | -------------------- | ---------------- |
-| 02/03/2022 | 1.0    | Criação do documento | Eugênio Siqueira |
+| Data       | Versão | Descrição                           | Autores          |
+| ---------- | ------ | ----------------------------------- | ---------------- |
+| 02/03/2022 | 1.0    | Criação do documento                | Eugênio Siqueira |
+| 14/03/2022 | 1.0    | Adição do tópico política de issues | Gustavo Nogueira |
 
 ## Referências
 

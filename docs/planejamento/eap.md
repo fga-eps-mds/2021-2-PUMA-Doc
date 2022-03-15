@@ -6,19 +6,17 @@ A Estrutura Analítica do Projeto(EAP) é uma decomposição hierárquica do esc
 Decomposição da EAP para o projeto PUMA:
 
 - Primeiro Nível: nome do projeto.
-- Segundo Nível: _releases_ do projeto. 
-- Terceiro Nível: fases do projeto.
-- Quarto Nível: pacotes de trabalho.
+- Segundo Nível: pacotes de trabalho.
+- Terceiro Nível: atividades necessárias para concluir um pacote de trabalho.
 
-<!-- ![EAP](assets/../../assets/diagramas/eap.png) -->
-
-<iframe frameborder="0" style="width:100%;height:750px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=EAP#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1lP2BqxgWSD2VYFUQ13jZLM4OfzQeaII5%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:750px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=EAP%20-%20V3#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1MUvytGEfX77TvUtfVuG6iQKHfH5XlrOC%26export%3Ddownload"></iframe>
 
 ## Histórico de Versão
 
-| Data       | Versão | Descrição            | Autores          |
-| ---------- | ------ | -------------------- | ---------------- |
-| 01/03/2022 | 1.0    | Criação do documento | Gustavo Nogueira |
+| Data       | Versão | Descrição             | Autores          |
+| ---------- | ------ | --------------------- | ---------------- |
+| 01/03/2022 | 1.0    | Criação do documento  | Gustavo Nogueira |
+| 13/03/2022 | 2.0    | Correção do documento | Gustavo Nogueira |
 
 ## Referências
 
