@@ -1,10 +1,22 @@
 O Plano de gerenciamento dos custos descreve como os custos do projeto serão planejados, estruturados e controlados fornecendo detalhes dos processos e ferramentas usadas, e serve como guia para a equipe durante todo o projeto para as questões relacionadas aos custos.
 
+## Custeio e Investimento
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTVGYcIDQqDiBNTj0CkQ2gy7BAoIoM7D5CECBlqguUTX9UGsz6waPmNY7vRWpnAPRF707V2HGZ4adFL/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%"  height="500px"></iframe>
+
+Caso haja problema para visualizar o iframe, a planilha pode ser acessada [clicando aqui](https://docs.google.com/spreadsheets/d/1PEdOLMKuUnVE1E6avnvDL8vuwnNRwThTmN7LKLLYztA).
+
 ## Bases das Estimativas 
 
     Custo Homem-Hora: R$ 46,00
 
     Custo = Custo Homem-Hora * Tempo Estimado * Número de Participantes
+
+### Técnicas de Estimativas 
+
+- Opinião especializada: qualquer membro técnico pertencente ao grupo do projeto pode ser ouvido, para que, a partir de dados e experiências em projetos anteriores, decisões possam ser tomadas com o intuito de realizar estimativas consistentes para o projeto em questão;
+
+- Estimativa análoga: estimar utilizando essa técnica significa ter como base projetos anteriores semelhantes para o cálculo dos recursos do atual projeto. Ela necessita de menos custos para ser aplicada, porém, é também menos precisa que outras técnicas que podem ser utilizadas, como as que seguem.
 
 ### Atividades de Release 
 
@@ -32,3 +44,7 @@ Caso haja problema para visualizar o iframe, a planilha pode ser acessada [clica
 | Data       | Versão | Descrição            | Autores                         |
 | ---------- | ------ | -------------------- | ------------------------------- |
 | 15/03/2022 | 1.0    | Criação do documento | Gustavo Nogueira e Bruno Duarte |
+
+## Referências
+
+PMBOK: Trabalhando com gerenciamento de custos. Disponível em: <https://www.devmedia.com.br/pmbok-trabalhando-com-gerenciamento-de-custos/31158>. Acesso em: 15 de março de 2022.
