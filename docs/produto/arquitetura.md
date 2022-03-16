@@ -60,9 +60,9 @@ Importante ressaltar que o projeto foi anteriormente arquitetado pelos membros d
 
 ### Banco de Dados
 #### Diagrama Entidade-Relacionamento
-!()[../assets/DER.png]
+![DED](../assets/DER.png)
 #### Diagrama Lógico de Dados
-!()[../assets/DLD.png]
+![DLD](../assets/DLD.png)
 
 # Histórico de Revisão
 
@@ -70,4 +70,5 @@ Importante ressaltar que o projeto foi anteriormente arquitetado pelos membros d
 | :-- | :-- | :-- | :-- |
 | 16/03/2022 | 0.1 | Criação do documento e tópicos iniciais| Bruno Duarte |
 | 16/03/2022 | 0.2 | Adição Tópico Banco de dados| Bruno Duarte e Gustavo Nogueira|
+| 16/03/2022 | 0.2 | Corrigindo referenciamento Imagens| Bruno Duarte e Gustavo Nogueira|
 
