@@ -17,10 +17,10 @@ nav:
       - Plano de Gerenciamento de Riscos: planejamento/plano-riscos.md
   - Visão de Produto:
       - Canvas Lean Inception: produto/canvas-li.md
-      - Backlog do Produto: produto/backlog.md
+      # - Backlog do Produto: produto/backlog.md
       - Documento de Arquitetura: produto/arquitetura.md
       - Protótipo de Alta Fidelidade: produto/prototipo-alta.md
-      # - Guia de Estilo e Identidade Visual
+      - Guia de Estilo e Identidade Visual: produto/guia-estilo.md
   # - Resultados
   - Sprints:
       - Sprint 1:

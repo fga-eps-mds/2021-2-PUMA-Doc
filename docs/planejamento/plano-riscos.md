@@ -173,4 +173,4 @@ O grau de risco é definido pela multiplicação da probabilidade pelo impacto. 
 | Data | Versão | Modificação | Autor |
 | :-- | :-- | :-- | :-- |
 | 16/03/2022 | 0.1 | Criação do documento| Bruno Duarte |
-| 16/03/2022 | 0.2 | Criação dos tópicos| Eugênio Sales |
+| 16/03/2022 | 0.2 | Criação dos tópicos| Eugênio Sales e Luís Cláudio |
