@@ -10,8 +10,6 @@ Importante ressaltar que o projeto foi anteriormente arquitetado pelos membros d
 #### Versão Base
 ![Versão Original](../assets/images/diagrama-de-relacoesv1.png)
 
-#### Versão Alterada
-![Versão Alterada](../assets/images/diagrama-de-relacoesv1.0.1.png)
 #### Versão Revisada 
 Versão considerando apenas o escopo do semestre
 ![Versão Atual](../assets/images/diagrama-de-relacoesv1.1.jpg)
