@@ -60,9 +60,9 @@ Importante ressaltar que o projeto foi anteriormente arquitetado pelos membros d
 
 ### Banco de Dados
 #### Diagrama Entidade-Relacionamento
-![DED](../assets/DER.png)
+![DER](../assets/images/DER.png)
 #### Diagrama Lógico de Dados
-![DLD](../assets/DLD.png)
+![DLD](../assets/images/DLD)
 
 # Histórico de Revisão
 
