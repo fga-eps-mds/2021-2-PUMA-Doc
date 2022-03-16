@@ -10,10 +10,7 @@ Importante ressaltar que o projeto foi anteriormente arquitetado pelos membros d
 #### Versão Base
 ![Versão Original](../assets/images/diagrama-de-relacoesv1.png)
 
-#### Versão Trabalhada
-![Versão Intermediária](../assets/images/diagrama-de-relacoesv1.0.1.png)
-
-#### Versão Atual
+#### Versão Revisada
 ![Versão Atual](../assets/images/diagrama-de-relacoesv1.1.jpg)
 
 
