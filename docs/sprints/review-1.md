@@ -60,9 +60,6 @@ Reunião realizada em 11/03/2022
 * Curva de aprendizado de um projeto em um estágio de maturidade mais avançado
 * Falta de organização das sprints anteriores
 
-## Burndown
-![](../assets/burndown/burndown-sprint-1.png)
-
 ## Avaliação de Scrum Master
 
 Os membros de MDS começaram a ter uma aximilação melhor do projeto e consequentemente, conseguiram realizar algumas entregas.
