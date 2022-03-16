@@ -56,3 +56,10 @@ Importante ressaltar que o projeto foi anteriormente arquitetado pelos membros d
 ##### 2.2.6 Docker Compose
 <p  align="justify">    Docker Compose é um orquestrador de contêineres Docker. Com ele é possível gerenciar vários contêineres de uma única vez, definindo o comportamento de cada um deles.
 </p>
+
+
+# Histórico de Revisão
+
+| Data | Versão | Modificação | Autor |
+| :-- | :-- | :-- | :-- |
+| 16/03/2022 | 0.1 | Criação do documento e tópicos iniciais| Bruno Duarte |
