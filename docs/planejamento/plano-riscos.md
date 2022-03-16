@@ -1,8 +1,3 @@
-# Plano de Gerenciamento de Riscos
-| Data | Versão | Autores | Descrição |
-|--|--|--|--|
-| 15/03/2022 | 1.0 | Eugênio e Luís | Criação do documento |
-
 ## Escopo
 Este documento visa documentar os riscos que afetam a realização do projeto, analizar seus impactos e registrar o plano de contingência para a ocorrência de cada risco.
 

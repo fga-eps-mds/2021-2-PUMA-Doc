@@ -1,7 +1,3 @@
-| Data | Versão | Autores | Descrição |
-|--|--|--|--|
-| 15/03/2022 | 1.0 | Eugênio Siqueira | Criação do documento |
-
 # Resultados da Sprint 1
 Reunião realizada em 11/03/2022
 
@@ -76,10 +72,3 @@ Em relação ao time de EPS, após realizado o alinhamento com os stakeholders, 
 ## Quadro de conhecimento depois da sprint 1
 
 ![](../assets/conhecimento/sprint1.png)
-
-
-## Histórico de Versão
-
-| Data       | Versão | Descrição            | Autores          |
-| ---------- | ------ | -------------------- | ---------------- |
-| 15/03/2022 | 1.0    | Criação do documento | Eugênio|

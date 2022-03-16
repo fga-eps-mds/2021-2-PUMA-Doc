@@ -1,7 +1,3 @@
-| Data | Versão | Autores | Descrição |
-|--|--|--|--|
-| 15/03/2022 | 1.0 | Eugênio Siqueira | Criação do documento |
-
 # Resultados da Sprint 1
 Reunião realizada em 11/03/2022
 
