@@ -71,9 +71,9 @@ mkdocs serve
 
 1. Crie uma pasta para armazenar os repositórios do projeto.
 
-2. Insira os [scripts]() dentro da pasta criada.
+2. Insira os [scripts](https://drive.google.com/drive/folders/11_sBJonAoB_wbzEFLuyG1D0dMOTSvECL?usp=sharing) dentro da pasta criada.
 
-3. Insira a [pasta envs]() dentro da pasta criada.
+3. Insira a [pasta envs](https://drive.google.com/drive/folders/1bCZ2RPNPU7U_vFwq6A_C2P2FjUKI3q92?usp=sharing) dentro da pasta criada. 
 
 4. Entre na pasta criada a partir do terminal.
 
