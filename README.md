@@ -14,9 +14,9 @@ Repositório de documentação do projeto PUMA.
 
 [Project Service](https://github.com/fga-eps-mds/2021-2-PUMA-ProjectService)
 
-[Notify Service](https://github.com/fga-eps-mds/2021-2-PUMA-NotifyService)
-
 [Alocate Service](https://github.com/fga-eps-mds/2021-2-PUMA-AlocateService)
+
+[Notify Service](https://github.com/fga-eps-mds/2021-2-PUMA-NotifyService)
 
 ## Time 
 
