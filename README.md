@@ -69,44 +69,40 @@ mkdocs serve
 
 ## PUMA - Desenvolvimento Local
 
-Antes de iniciarmos o tutorial: Abra o terminal, crie uma pasta em sua área de trabalho. Copie o arquivo [clone_pumas.sh](https://github.com/fga-eps-mds/2021-2-PUMA-Doc/blob/main/clone_pumas.sh) nesta pasta vazia.
+1. Crie uma pasta para armazenar os repositórios do projeto.
 
-1) Execute o arquivo .sh
-```console
-bash clone_pumas.sh
-```
+2. Insira os [scripts]() dentro da pasta criada.
 
-2) Adicionar as variáveis de ambiente como arquivos .env(renomear os arquivos para .env somente) na raiz de cada repositório.
+3. Insira a [pasta envs]() dentro da pasta criada.
 
-> As variáveis serão disponibilizadas.
+4. Entre na pasta criada a partir do terminal.
 
-> No repositório do Frontend, colocar o arquivo .env na pasta puma!
+5. Clone os repositórios do projeto:
+   - Via ssh:
+        ```console
+        source clone_repos_ssh.sh
+        ```
 
-1) Entrar no repositório Api-Gateway e executar
-```console
-make up-build
-```
+   - Via http:
+        ```console
+        source clone_repos_http.sh
+        ```
 
-4) Abrir outro terminal; entrar no docker do banco de dados através do comando:
-```console
-sudo docker ps // Lista os containers rodando e suas informações(ids, nomes, portas, etc)
-sudo docker exec -it ID_CONTAINER_postgres bash
-```
+6. Recupere o IP da sua máquina e insira nas variáveis de IP dos .envs que estão dentro da pasta envs.
 
-5) Após entrar no container, executar os seguintes comandos:
-```console
-su - postgres
-psql -U username -d puma
-Exemplo: psql -U neymar -d puma
-```
+7. Utilize o script move_envs.sh para mover todos os .envs para os seus respectivos repositórios.
+    ```console
+    source move_envs.sh
+    ```
 
-6) Inserir alguns dados manualmente para execução do projeto:
-```SQL
-INSERT INTO knowledge_area(knowledgearea) VALUES('Area de Conhecimento');
-INSERT INTO subject(name, coursesyllabus) VALUES('Nome Subject', 'Descricao do Subject');
-INSERT INTO subarea(knowledgeareaid, description) VALUES(1, 'Descricao da Area de conhecimento');
-```
+8. Entre no repositório Api-Gateway e execute:
+    ```console
+    make up-build
+    ```
 
-7) Acessar o projeto pelo link gerado
+9. Após subir todos os containers com _make up-build_, popule o banco de dados da aplicação:
+    ```console
+    source db_script.sh populate
+    ```
 
-8) Cadastrar o usuário, logar e por fim explorar :)
+1.   Pronto ! Agora é só acessar http://localhost:8080/
