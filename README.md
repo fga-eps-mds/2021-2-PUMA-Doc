@@ -75,9 +75,11 @@ mkdocs serve
 
 3. Insira a [pasta envs](https://drive.google.com/drive/folders/1bCZ2RPNPU7U_vFwq6A_C2P2FjUKI3q92?usp=sharing) dentro da pasta criada. 
 
-4. Entre na pasta criada a partir do terminal.
+4. Recupere o IP da sua máquina(ifconfig) e insira nas variáveis de IP dos .envs que estão dentro da pasta envs.
 
-5. Clone os repositórios do projeto:
+5. Entre na pasta criada a partir do terminal.
+
+6. Clone os repositórios do projeto:
    - Via ssh:
         ```console
         source clone_repos_ssh.sh
@@ -87,9 +89,7 @@ mkdocs serve
         ```console
         source clone_repos_http.sh
         ```
-
-6. Recupere o IP da sua máquina e insira nas variáveis de IP dos .envs que estão dentro da pasta envs.
-
+        
 7. Utilize o script move_envs.sh para mover todos os .envs para os seus respectivos repositórios.
     ```console
     source move_envs.sh
@@ -105,4 +105,4 @@ mkdocs serve
     source db_script.sh populate
     ```
 
-1.   Pronto ! Agora é só acessar http://localhost:8080/
+10.   Pronto ! Agora é só acessar http://localhost:8080/
