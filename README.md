@@ -100,7 +100,7 @@ mkdocs serve
     make up-build
     ```
 
-9. Após subir todos os containers com _make up-build_, abra outro terminal(na pasta criada na etapa 1) e popule o banco de dados da aplicação:
+9. Após subir todos os containers com _make up-build_, abra outro terminal na pasta criada na etapa 1 e popule o banco de dados da aplicação:
     ```console
     source db_script.sh populate
     ```
