@@ -15,6 +15,7 @@ nav:
       - Políticas de Contribuição: planejamento/contribuicao.md
       - Plano de Gerenciamento de Custos: planejamento/plano-custos.md
       - Plano de Gerenciamento de Riscos: planejamento/plano-riscos.md
+      - Burndown de riscos: planejamento/burndown-riscos.md
   - Visão de Produto:
       - Canvas Lean Inception: produto/canvas-li.md
       # - Backlog do Produto: produto/backlog.md
