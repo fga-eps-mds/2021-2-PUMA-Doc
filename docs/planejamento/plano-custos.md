@@ -8,7 +8,7 @@ Caso haja problema para visualizar o iframe, a planilha pode ser acessada [clica
 
 ## Bases das Estimativas 
 
-    Custo Homem-Hora: R$ 46,00
+    Custo Homem-Hora: R$ 30,77 (com base na segunda referência)
 
     Custo = Custo Homem-Hora * Tempo Estimado * Número de Participantes
 
@@ -47,4 +47,6 @@ Caso haja problema para visualizar o iframe, a planilha pode ser acessada [clica
 
 ## Referências
 
-PMBOK: Trabalhando com gerenciamento de custos. Disponível em: <https://www.devmedia.com.br/pmbok-trabalhando-com-gerenciamento-de-custos/31158>. Acesso em: 15 de março de 2022.
+[1] PMBOK: Trabalhando com gerenciamento de custos. Disponível em: <https://www.devmedia.com.br/pmbok-trabalhando-com-gerenciamento-de-custos/31158>. Acesso em: 15 de março de 2022.
+
+[2] Talent.com. Salário Médio de Desenvolvedor Full Stack em Brasil 2022. Disponível em: <https://br.talent.com/salary?job=desenvolvedor+full+stack#:~:text=Sal%C3%A1rio%20M%C3%A9dio%20de%20Desenvolvedor%20Full%20Stack%20em%20Brasil%202022&text=O%20sal%C3%A1rio%20m%C3%A9dio%20de%20desenvolvedor,R%2430%2C77%20por%20hora>. Acesso em: 05 de abril de 2022.

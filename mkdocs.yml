@@ -15,13 +15,15 @@ nav:
       - Políticas de Contribuição: planejamento/contribuicao.md
       - Plano de Gerenciamento de Custos: planejamento/plano-custos.md
       - Plano de Gerenciamento de Riscos: planejamento/plano-riscos.md
-      - Burndown de riscos: planejamento/burndown-riscos.md
   - Visão de Produto:
       - Canvas Lean Inception: produto/canvas-li.md
       # - Backlog do Produto: produto/backlog.md
       - Documento de Arquitetura: produto/arquitetura.md
       - Protótipo de Alta Fidelidade: produto/prototipo-alta.md
       - Guia de Estilo e Identidade Visual: produto/guia-estilo.md
+  - Monitoramento:
+    - Agile EVM: monitoramento/agile-evm.md
+    - Burndown de Riscos: monitoramento/burndown-riscos.md
   # - Resultados
   - Sprints:
       - Sprint 1:
