@@ -75,13 +75,26 @@ Versão considerando apenas o escopo do semestre
 
 #### Status da Tabela PROJECT
 
+| ENUM | Nome                                             | Descrição                                                                                                                                          |
+| ---- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SB   | Proposta Submetida                               | Utilizado quando a proposta é submetida e alocada automaticamente.                                                                                 |
+| AN   | Proposta em Análise                              | Utilizado quando o professor/administrador está analisando a proposta de projeto.                                                                  |
+| AC   | Proposta Aceita (Aguardando Semestre Disponível) | Utilizado quando a proposta for aceita por um professor/administrador, porém ainda não incluída a nenhum semestre.                                 |
+| RC   | Proposta Recusada                                | Utilizado quando a proposta for recusada por um professor/administrador.                                                                           |
+| RL   | Proposta em Realocação                           | Utilizado quando a disciplina adequada para a proposta não for conhecida pelo professor que teve a proposta inicialmente alocada a sua disciplina. |
+| IC   | Projeto em Iniciação (Formação de Times)         | Utilizado quando a proposta for incluída para o semestre de alguma disciplina.                                                                     |
+| EX   | Projeto em Execução                              | Utilizado quando o(s) time(s) designado(s) inicia(m) o desenvolvimento do projeto.                                                                 |
+| EC   | Projeto Encerrado                                | Utilizado quando o desenvolvimento do projeto for concluído.                                                                                       |
+
+
 | ENUM | Nome                                     | Descrição                                                                          |
 | ---- | ---------------------------------------- | ---------------------------------------------------------------------------------- |
 | SB   | Proposta Submetida                       | Utilizado quando a proposta é submetida.                                           |
 | AN   | Proposta em Análise                      | Utilizado quando o professor/administrador está analisando a proposta de projeto.  |
-| AC   | Proposta Aceita                          | Utilizado quando a proposta for aceita por um professor/administrador.             |
+| AC   | Proposta Aceita (Aguardando Semestre Disponível) | Utilizado quando a proposta for aceita por um professor/administrador, porém ainda não incluída a nenhum semestre.            |
 | RC   | Proposta Recusada                        | Utilizado quando a proposta for recusada por um professor/administrador.           |
-| IC   | Projeto em Iniciação (Formação de Times) | Utilizado quando a proposta for indicada para o semestre corrente.                 |
+| RL   | Proposta em Realocação                   | Utilizado quando a disciplina adequada para a proposta não for conhecida pelo professor que teve a proposta inicialmente alocada a sua disciplina. |
+| IC   | Projeto em Iniciação (Formação de Times) | Utilizado quando a proposta for incluída para o semestre de alguma disciplina.     |
 | EX   | Projeto em Execução                      | Utilizado quando o(s) time(s) designado(s) inicia(m) o desenvolvimento do projeto. |
 | EC   | Projeto Encerrado                        | Utilizado quando o desenvolvimento do proejto for concluído.                       |
 
