@@ -77,11 +77,11 @@ Versão considerando apenas o escopo do semestre
 
 | ENUM | Nome                                     | Descrição                                                                          |
 | ---- | ---------------------------------------- | ---------------------------------------------------------------------------------- |
-| SB   | Proposta Submetida                       | Utilizado quando a proposta é submetida.                                           |
-| AN   | Proposta em Análise                      | Utilizado quando o professor/administrador está analisando a proposta de projeto.  |
+| SB   | Proposta Submetida (Pré-alocada)         | Utilizado quando a proposta é submetida.                                           |
+| RL   | Proposta Realocada                       | Utilizado quando professor/administrador realoca a proposta para outra disciplina. |
+| AL   | Proposta Aguardando Alocação      | Utilizado quando a proposta não possui disciplina alocada (a disciplina adequada para a proposta não é conhecida pelo professor responsável). |
 | AC   | Proposta Aceita (Aguardando Semestre Disponível) | Utilizado quando a proposta for aceita por um professor/administrador, porém ainda não incluída a nenhum semestre.            |
 | RC   | Proposta Recusada                        | Utilizado quando a proposta for recusada por um professor/administrador.           |
-| RL   | Proposta em Realocação                   | Utilizado quando a disciplina adequada para a proposta não for conhecida pelo professor que teve a proposta inicialmente alocada a sua disciplina. |
 | IC   | Projeto em Iniciação (Formação de Times) | Utilizado quando a proposta for incluída para o semestre de alguma disciplina.     |
 | EX   | Projeto em Execução                      | Utilizado quando o(s) time(s) designado(s) inicia(m) o desenvolvimento do projeto. |
 | EC   | Projeto Encerrado                        | Utilizado quando o desenvolvimento do proejto for concluído.                       |
@@ -105,9 +105,11 @@ Versão considerando apenas o escopo do semestre
 # Histórico de Revisão
 
 | Data       | Versão | Modificação                             | Autor                           |
-| :--------- | :----- | :-------------------------------------- | :------------------------------ |
+| ---------- | ------ | --------------------------------------- | ------------------------------- |
 | 16/03/2022 | 0.1    | Criação do documento e tópicos iniciais | Bruno Duarte                    |
 | 16/03/2022 | 0.2    | Adição Tópico Banco de dados            | Bruno Duarte e Gustavo Nogueira |
 | 16/03/2022 | 0.3    | Corrigindo referenciamento Imagens      | Bruno Duarte e Gustavo Nogueira |
 | 25/03/2022 | 0.4    | Atulizando tópico banco de dados        | Bruno Duarte e Gustavo Nogueira |
+| 10/04/2022 | 0.5    | Atulizando tópico banco de dados        | Bruno Duarte e Gustavo Nogueira |
+| 12/04/2022 | 0.6    | Atulizando tópico banco de dados        | Bruno Duarte e Gustavo Nogueira |
 
