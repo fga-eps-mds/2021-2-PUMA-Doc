@@ -106,10 +106,11 @@ Versão considerando apenas o escopo do semestre
 
 | Data       | Versão | Modificação                             | Autor                           |
 | ---------- | ------ | --------------------------------------- | ------------------------------- |
-| 16/03/2022 | 0.1    | Criação do documento e tópicos iniciais | Bruno Duarte                    |
-| 16/03/2022 | 0.2    | Adição Tópico Banco de dados            | Bruno Duarte e Gustavo Nogueira |
-| 16/03/2022 | 0.3    | Corrigindo referenciamento Imagens      | Bruno Duarte e Gustavo Nogueira |
-| 25/03/2022 | 0.4    | Atulizando tópico banco de dados        | Bruno Duarte e Gustavo Nogueira |
-| 10/04/2022 | 0.5    | Atulizando tópico banco de dados        | Bruno Duarte e Gustavo Nogueira |
-| 12/04/2022 | 0.6    | Atulizando tópico banco de dados        | Bruno Duarte e Gustavo Nogueira |
+| 16/03/2022 | 1.0    | Criação do documento e tópicos iniciais | Bruno Duarte                    |
+| 16/03/2022 | 1.1    | Adição Tópico Banco de dados            | Bruno Duarte e Gustavo Nogueira |
+| 16/03/2022 | 1.2    | Corrigindo referenciamento Imagens      | Bruno Duarte e Gustavo Nogueira |
+| 25/03/2022 | 1.3    | Atulizando tópico banco de dados        | Bruno Duarte e Gustavo Nogueira |
+| 10/04/2022 | 1.4    | Atulizando tópico banco de dados        | Bruno Duarte e Gustavo Nogueira |
+| 12/04/2022 | 1.5    | Atulizando tópico banco de dados        | Bruno Duarte e Gustavo Nogueira |
+| 14/04/2022 | 1.6    | Atulizando tópico banco de dados        | Bruno Duarte e Gustavo Nogueira |
 

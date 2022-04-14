@@ -1,7 +1,3 @@
-| Data       | Versão | Descrição            | Autores     |
-| ---------- | ------ | -------------------- | ----------- |
-| 15/03/2022 | 1.0    | Criação do documento | Time de EPS |
-
 ## Visão do Produto
 Esta atividade auxilia a definir a visão do produto de modo colaborativo garantindo a conformidade das ações a serem tomadas e guiando a equipe de desenvolvimento. <br>
 
@@ -64,6 +60,13 @@ O Canvas MVP é um quadro visual que auxilia a equipe a alinhar e definir a estr
 
 ### Resultado
 ![](../assets/leaninception/canvasmvp.png)
+
+
+## Histórico de Versão
+
+| Data       | Versão | Descrição            | Autores     |
+| ---------- | ------ | -------------------- | ----------- |
+| 15/03/2022 | 1.0    | Criação do documento | Time de EPS |
 
 ## Referências
 CAROLI, Paulo. **Lean Inception**: How to Align People and Build the Right Product. 1 ed. São Paulo: Caroli, 2018.
