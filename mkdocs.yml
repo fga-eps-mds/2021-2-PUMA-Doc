@@ -24,6 +24,7 @@ nav:
   - Monitoramento:
     - Agile EVM: monitoramento/agile-evm.md
     - Burndown de Riscos: monitoramento/burndown-riscos.md
+    - Analytics: monitoramento/analytics.md
   # - Resultados
   - Sprints:
       - Sprint 1:
