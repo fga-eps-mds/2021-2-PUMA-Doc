@@ -7,10 +7,15 @@ O Plano de gerenciamento dos custos descreve como os custos do projeto serão pl
 Caso haja problema para visualizar o iframe, a planilha pode ser acessada [clicando aqui](https://docs.google.com/spreadsheets/d/1PEdOLMKuUnVE1E6avnvDL8vuwnNRwThTmN7LKLLYztA).
 
 ## Bases das Estimativas 
+    Custo Aluno/Ano: R$ 26040,00 (com base na segunda referência)
 
-    Custo Homem-Hora: R$ 30,77 (com base na segunda referência)
+    Média de Créditos por Semestre: 24
+    
+    Horas por Ano: (Média de Créditos por Semestre) * 2 * 15
 
-    Custo = Custo Homem-Hora * Tempo Estimado * Número de Participantes
+    Custo Aluno/Hora: (Custo Aluno/Ano) ÷ (Horas por Ano) = R$ 36,17
+
+    Custo = (Custo Aluno/Hora) * (Tempo Estimado) * (Número de Participantes)
 
 ### Técnicas de Estimativas 
 
@@ -49,4 +54,4 @@ Caso haja problema para visualizar o iframe, a planilha pode ser acessada [clica
 
 [1] PMBOK: Trabalhando com gerenciamento de custos. Disponível em: <https://www.devmedia.com.br/pmbok-trabalhando-com-gerenciamento-de-custos/31158>. Acesso em: 15 de março de 2022.
 
-[2] Talent.com. Salário Médio de Desenvolvedor Full Stack em Brasil 2022. Disponível em: <https://br.talent.com/salary?job=desenvolvedor+full+stack#:~:text=Sal%C3%A1rio%20M%C3%A9dio%20de%20Desenvolvedor%20Full%20Stack%20em%20Brasil%202022&text=O%20sal%C3%A1rio%20m%C3%A9dio%20de%20desenvolvedor,R%2430%2C77%20por%20hora>. Acesso em: 05 de abril de 2022.
+[2] Relatório do Decanato de Planejamento e Orçamento da UnB de 2016. Disponível em: <http://www.dpo.unb.br/images/phocadownload/documentosdegestao/relatoriogestao/Relatrio-de-Gesto-2016.pdf>. Acesso em: 05 de abril de 2022.
