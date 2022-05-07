@@ -1,4 +1,4 @@
-# Cobertura de Teste
+# Cobertura de Testes
 
 ## API Gateway
 
