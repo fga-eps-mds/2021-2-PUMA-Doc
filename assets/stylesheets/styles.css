@@ -1,0 +1,119 @@
+:root {
+    /*
+    --md-primary-fg-color--light: #2C496E;
+    --md-primary-fg-color--dark: #0D2038;
+    --md-primary-fg-color--light: #445d7e;
+    --md-primary-fg-color--dark: #0b1b2f;
+    */
+
+    --md-primary-fg-color: #265FAB;
+    --md-primary-fg-color--light: #265FAB;
+    --md-primary-fg-color--dark: #15355E;
+    --md-secondary-fg-color: #010203; 
+    --md-accent-fg-color: var(--md-primary-fg-color--dark);
+    --md-default-fg-color--light: #265FAB;
+    --md-default-fg-color--dark: #15355E;
+  }
+  
+  .md-header,
+  .md-tabs {
+    background: linear-gradient(90deg, var(--md-primary-fg-color--light), var(--md-primary-fg-color--dark)); 
+  }
+  
+  #section-home-logo {
+    display: flex;
+    height: 50vh;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 100% 100%;
+    background: linear-gradient(90deg, var(--md-primary-fg-color--light), var(--md-primary-fg-color--dark)); 
+  }
+  
+  #section-home-logo p {
+    font-size: 1.2rem;
+  }
+  
+  #section-home-logo img {
+    width: 256px;
+  }
+  
+  #section-home-about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #section-home-about p {
+    max-width: 50vw;
+    font-size: 0.9rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  #section-home-about h1, #section-home-team h1 {
+    color: var(--md-primary-fg-color);
+    font-size: 1.4rem;
+    text-decoration: underline var(--md-primary-fg-color);
+  }
+  
+  #section-home-team {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 100000px; */
+  }
+  
+  .container-members-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .member-card {
+    border-radius: 10px;
+    height: 222px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 7px;
+  }
+  
+  .member-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  }
+  
+  .member-card-img {
+    height: 100%;
+  }
+  
+  .member-card-bar {
+    height: 65px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  #section-home-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px 10px 0px;
+  }
+  
+  #section-home-footer img {
+    width: 25vw;
+  }
+  
+  .md-typeset blockquote {
+    border-left: .2rem solid var(--md-default-fg-color--light);
+  }
